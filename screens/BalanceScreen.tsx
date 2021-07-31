@@ -27,7 +27,7 @@ export default function BalanceScreen() {
     getTokenBalancesData(
       { address, chain_id: binanceChainId },
       {
-        key: process.env.COVALENT_API_KYC
+        key: process.env.COVALENT_API_KEY
       }
     )
   )

@@ -28,7 +28,7 @@ export default function FarmScreen() {
     getPancakeSwapV2BalancesData(
       { address, chain_id: binanceChainId },
       {
-        key: process.env.COVALENT_API_KYC
+        key: process.env.COVALENT_API_KEY
       }
     )
   )
