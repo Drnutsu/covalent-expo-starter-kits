@@ -5,6 +5,9 @@ This project is starter kits and boilerplate for anyone whose want to create Dap
 The Starter kits already provide your the template and example code for
 
 - Expo generated project, fully customization components and helpers provided by expo. with really great development experience, debugging by expo's tools.
+
+> Expo ReactNative web version is not supported yet, due to react native walletConnect library lib isn't support for react native web version.
+
 - Connect the wallet with `walletConnect` library with react native version.
 - Covalent API Provider and Hooks for use it more easier.
   - class-A, class-B, Price feeder, and so on.
@@ -38,17 +41,21 @@ for more detail please check: [Wallet Connect React Native document](https://doc
   yarn install
   ```
 
-- Set the value of the `COVALENT_ENDPOINT`, `COVALENT_API_KEY`, `DEFAULT_WALLET_ADDRESS` variable, that you got in the serverless setup step, in the [.env](/.env) file.
+- Set the value of the `COVALENT_ENDPOINT`, `COVALENT_API_KEY`, `DEFAULT_WALLET_ADDRESS` variable. please check the .env file format at [.env.example](https://github.com/Drnutsu/covalent-expo-starter-kits/blob/master/.env.example) file (don't forgot to rename `.env.example` to `.env`), then edit the required environment variable to be yours.
 
   - `COVALENT_ENDPOINT`: colvalent endpoint.
   - `COVALENT_API_KEY`: colvalent api keys.
   - `DEFAULT_WALLET_ADDRESS`: default wallet address, for faster development experience.
 
 - Run the expo development tool kits with
+
   ```
   yarn start
   ```
+
   you can check more detail about expo development at [Expo Development Mode](https://docs.expo.dev/workflow/development-mode/)
+
+  > For running the iOS,Android emulator version, please make sure that you already run the Android/iOS emulator first before click on "Run on Android" and "Run on iOS" on the expo console.
 
 <br>
 
