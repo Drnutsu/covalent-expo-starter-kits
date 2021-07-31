@@ -6,7 +6,7 @@ The Starter kits already provide your the template and example code for
 
 - Expo generated project, fully customization components and helpers provided by expo. with really great development experience, debugging by expo's tools.
 
-> Expo ReactNative web version is not supported yet, due to react native walletConnect library lib isn't support for react native web version.
+> Expo ReactNative web version is not supported yet, due to the react-native wallet-connect library is not supported for react native web version.
 
 - Connect the wallet with `walletConnect` library with react native version.
 - Covalent API Provider and Hooks for use it more easier.
